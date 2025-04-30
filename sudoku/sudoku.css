@@ -1,0 +1,23 @@
+.sudoku_main {
+    width: 80%;
+    margin: auto;
+    margin-top: 2%;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+
+.project {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    margin-right: 20%;
+    background: var(--third_color);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    height: auto;
+}
+    
