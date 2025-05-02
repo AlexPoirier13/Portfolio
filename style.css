@@ -213,16 +213,18 @@ h2 {
 
 
 .project img {
-    width: 150px;
-    height: 150px;
+    width: 175px;
+    height: 175px;
     object-fit: cover;
     
 
 }
 
+
 .project img:hover{
     cursor: pointer;
     opacity: 85%;
+    
 }
 
 .project h2 a {
