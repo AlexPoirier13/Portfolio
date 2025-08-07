@@ -1,7 +1,7 @@
-@import url("../style.css");
+@import url("../../style.css");
 
 
-.site_ergo_main {
+.project_main {
     width: 80%;
     margin: auto;
     margin-top: 2%;
@@ -11,22 +11,28 @@
 }
 
 
-.project {
-    display: flex;
-    align-items: center;
-    margin-top: 10px;
-    margin-bottom: 40px;
-    margin-right: 20%;
-    background: var(--third_color);
-    border-radius: 10px;
-    overflow: hidden;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-    height: auto;
+
+
+.texte {
+    width: 80%;
 }
 
 .project_link {
     margin-top: 10px;
 }
+
+
+
+.project img {
+  width: 200px;
+  height: auto;
+  object-fit: contain;
+  background: white;
+  padding: 10px;
+  max-height: 150px;
+  object-fit: contain;
+}
+
 
 .project_link a {
     text-decoration: none;
