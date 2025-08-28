@@ -1,0 +1,32 @@
+@import url("style.css");
+
+
+.project_main {
+    width: 80%;
+    margin: auto;
+    margin-top: 2%;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+
+.project_link {
+    margin-top: 10px;
+}
+
+.project_link a {
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--third_color);
+    transition: all 0.3s ease;
+    
+    
+
+}
+
+.project_link a:hover {
+    padding-left: 5px;
+    color: #3A78C2;
+}
+    
