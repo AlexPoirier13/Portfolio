@@ -1,0 +1,138 @@
+
+/*Projects Section*/
+
+
+#projects{
+    display: flex;
+    border-bottom: solid rgba(59, 130, 246, 0.2) 2px;
+    padding-bottom: 4%;
+    
+}
+
+.projects_block {
+
+    width: 80%;
+    
+    flex-direction: column;
+    margin: 0 auto;
+    
+    
+}
+
+.projects_block h1{
+    color: #60A5FA;
+}
+
+.projects_grid{
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+
+}
+
+.project{
+
+    background-color: var(--second_bg_color);
+    border: var(--border_color) solid 2px;
+    border-radius: 12px;
+    padding: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transition: transform 0.2s ease-in-out;
+    
+    
+}
+
+.project p {
+
+    padding: 12px;
+    text-align: center;
+
+}
+
+
+.project:hover{
+
+    transform: scale(1.02);
+    box-shadow: 0 0 10px var(--text_color);
+    cursor: pointer;
+    
+
+}
+
+.project:hover h2 {
+    color: var(--text_color);
+}
+
+.project h2 {
+    margin: 0;
+    margin-bottom: 12px;
+    text-align: center;
+    
+}
+
+a.project {
+    text-decoration: none;
+    color: inherit;
+}
+
+.img-container {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    height: 60%;
+    border-radius: 6px;
+    box-shadow: 0 0 5px var(--text_color);
+
+}
+
+
+.img-container img {
+
+    max-width: 90%;
+    max-height: 90%;
+    object-fit: contain;
+
+}
+
+.tags {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}
+
+.tags span {
+    font-size: small;
+    padding: 5px;
+    background-color: var(--text_color);
+    border-radius: 6px;
+    box-shadow: 0 0 10px var(--text_color);
+    font-weight: 600;
+    min-width: 50px;
+    
+}
+
+
+/*cases projets responsive*/
+
+@media (max-width: 1024px){
+    .projects_grid{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+
+@media (max-width: 640px){
+    .projects_grid{
+        grid-template-columns: 1fr;
+    }
+}

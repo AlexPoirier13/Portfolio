@@ -1,0 +1,14 @@
+
+/*About Section*/
+
+
+:root{
+
+
+    --main_bg_color: rgba(15, 26, 50, 1);
+    --second_bg_color: rgba(20, 34, 64, 1);
+    --text_color: #60A5FA;
+    --border_color: rgba(96, 165, 250, 0.15);
+    --section_border: rgba(59, 130, 246, 0.2);
+
+}

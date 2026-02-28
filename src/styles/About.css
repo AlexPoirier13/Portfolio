@@ -1,0 +1,43 @@
+/*About section*/
+
+#about {
+
+    display: flex;
+    border-bottom: solid rgba(59, 130, 246, 0.2) 2px;
+    padding-bottom: 4%;
+
+}
+
+
+
+.about_block {
+
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+
+}
+
+.about_block h1 {
+    margin: 0;
+    color: #60A5FA;
+}
+
+.about_block h2 {
+    margin-top: 0.5%;
+    margin-bottom: 0.5%;
+}
+
+.about_block p {
+
+    font-size: 16px;
+    background: rgba(20, 34, 64, 1);
+    border: 1px solid rgba(96, 165, 250, 0.15);
+    border-radius: 12px;
+    padding: 2%;
+
+
+}

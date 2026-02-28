@@ -1,0 +1,106 @@
+#contacts {
+
+    display: flex;
+    
+
+}
+
+.contact_block {
+
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+
+}
+
+.contact_block h1 {
+
+    color: #60A5FA;
+
+}
+
+
+.contact_grid {
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    width: 70%;
+
+}
+
+.contact_card {
+
+    background-color: var(--second_bg_color);
+    border: var(--border_color) solid 2px;
+    border-radius: 12px;
+    padding: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transition: transform 0.1s ease-in-out;
+
+}
+
+.contact_card:hover {
+    transform: scale(1.005);
+    box-shadow: 0 0 5px var(--text_color);
+    cursor: pointer;
+    color: var(--text_color);
+}
+
+.contact_card h3 {
+    margin: 0;
+    text-align: center;
+
+}
+
+
+.img-contact-container {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    height: 60%;
+    border-radius: 6px;
+    box-shadow: 0 0 2px var(--text_color);
+
+}
+
+
+.img-contact-container img {
+
+    max-width: 95%;
+    max-height: 95%;
+    object-fit: contain;
+
+}
+
+.text-container {
+
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+
+}
+
+
+/*cases projets responsive*/
+
+@media (max-width: 1024px){
+    .contact_grid{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+
+@media (max-width: 640px){
+    .contact_grid{
+        grid-template-columns: 1fr;
+    }
+}
