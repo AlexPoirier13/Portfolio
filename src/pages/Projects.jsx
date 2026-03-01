@@ -2,6 +2,14 @@ import '../styles/Projects.css'
 import { Link } from "react-router-dom";
 import RunningChart from '../components/RunningChart';
 
+import quadtree_img from '../assets/projets/quadtree/quadtree_project.png'
+import quiestce_img from '../assets/projets/quiestce/quiestce.png'
+import dicefull_img from '../assets/projets/dicefull/home.png'
+import sudoku_img from '../assets/projets/SAT/sudoku.png'
+import automate_img from '../assets/projets/automate/automate.png'
+import morpion_img from "../assets/projets/morpion/title_screen.png"
+import randomizer_img from '../assets/projets/randomizer/home.png'
+
 function Projects(){
 
     return(
@@ -17,7 +25,7 @@ function Projects(){
 
                         <h2>Projet - Quadtree</h2>
                         <div className="img-container">
-                            <img src="/src/assets/projets/quadtree/quadtree_project.png" alt="quadtree_projet"></img>
+                            <img src={quadtree_img} alt="quadtree_projet"></img>
                         </div>
                         
                         <p>
@@ -36,7 +44,7 @@ function Projects(){
 
                         <h2>Projet - Qui Est-Ce ?</h2>
                         <div className="img-container">
-                            <img src="/src/assets/projets/quiestce/quiestce.png" alt="quiestcelogo"></img>
+                            <img src={quiestce_img} alt="quiestcelogo"></img>
                         </div>
                         
                         <p>
@@ -56,7 +64,7 @@ function Projects(){
 
                         <h2>Projet - Site de vente de jeux de société</h2>
                         <div className="img-container">
-                            <img src="/src/assets/projets/dicefull/home.png"></img>
+                            <img src={dicefull_img}></img>
                         </div>
                         
                         <p>
@@ -80,7 +88,7 @@ function Projects(){
 
                         <h2>Projet - Solveur SAT</h2>
                         <div className="img-container">
-                            <img src="/src/assets/projets/SAT/sudoku.png"></img>
+                            <img src={sudoku_img}></img>
                         </div>
                         
                         <p>Projet où on devait implémenter des algorithmes de backtracking utilisés pour résoudre des 
@@ -96,7 +104,7 @@ function Projects(){
 
                         <h2>Mini Projet - Automate Analyseur</h2>
                         <div className="img-container">
-                            <img src="/src/assets/projets/automate/automate.png"></img>
+                            <img src={automate_img}></img>
                         </div>
                         
                         <p>Développement d'un automate analyseur capable de reconnaître des mots donnés en entrée 
@@ -111,7 +119,7 @@ function Projects(){
 
                         <h2>Projet Perso - Tic-Tac-Toe</h2>
                         <div className="img-container">
-                            <img src="/src/assets/projets/morpion/title_screen.png"></img>
+                            <img src={morpion_img}></img>
                         </div>
                         
                         <p>Développement d'un jeu "Morpion" avec la bibliothèque Pygame</p>
@@ -127,7 +135,7 @@ function Projects(){
 
                         <h2>Projet Perso - Mario Kart 8 Deluxe Randomizer</h2>
                         <div className="img-container">
-                            <img src="/src/assets/projets/randomizer/home.png"></img>
+                            <img src={randomizer_img}></img>
                         </div>
                         
                         <p>Application web développée en React, permet de générer une combinaison, 

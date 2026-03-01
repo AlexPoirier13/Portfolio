@@ -3,6 +3,9 @@ import { use, useEffect, useState } from "react";
 import Header from "../components/Header.jsx"
 import Footer from "../components/Footer.jsx"
 
+import quadtreePartImg from '../assets/projets/quadtree/quadtree_particles.png'
+import quadtreeTPImg from '../assets/projets/quadtree/quadtree_TP.png'
+
 function Quadtree(){
 
     useBackground()
@@ -33,7 +36,7 @@ function Display_project(){
             
                 <div className="project_tile">
                     <div className="img-detail-container">
-                        <img src="/src/assets/projets/quadtree/quadtree_particles.png"></img>
+                        <img src={quadtreePartImg}></img>
                     </div>
 
                     <div className="project_desc">
@@ -47,7 +50,7 @@ function Display_project(){
 
                 <div className="project_tile">
                     <div className="img-detail-container">
-                        <img src="/src/assets/projets/quadtree/quadtree_TP.png"></img>
+                        <img src={quadtreeTPImg}></img>
                     </div>
 
                     <div className="project_desc">

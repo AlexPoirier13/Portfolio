@@ -3,6 +3,11 @@ import { use, useEffect, useState } from "react";
 import Header from "../components/Header.jsx"
 import Footer from "../components/Footer.jsx"
 
+import homeRandomizerImg from '../assets/projets/randomizer/home.png'
+import itemRandomizerImg from '../assets/projets/randomizer/item.png'
+import comboRandomizerImg from '../assets/projets/randomizer/combo.png'
+
+
 function Randomizer(){
 
     useBackground()
@@ -32,7 +37,7 @@ function Display_project(){
             <div className="projects_details">
                 <div className="project_tile">
                     <div className="img-detail-container">
-                        <img src="/src/assets/projets/randomizer/home.png"></img>
+                        <img src={homeRandomizerImg}></img>
                     </div>
 
                     <div className="project_desc">
@@ -43,7 +48,7 @@ function Display_project(){
 
                 <div className="project_tile">
                     <div className="img-detail-container">
-                        <img src="/src/assets/projets/randomizer/item.png"></img>
+                        <img src={itemRandomizerImg}></img>
                     </div>
 
                     <div className="project_desc">
@@ -54,7 +59,7 @@ function Display_project(){
 
                 <div className="project_tile">
                     <div className="img-detail-container">
-                        <img src="/src/assets/projets/randomizer/combo.png"></img>
+                        <img src={comboRandomizerImg}></img>
                     </div>
 
                     <div className="project_desc">
@@ -63,16 +68,7 @@ function Display_project(){
                     </div>
                 </div>
 
-                <div className="project_tile">
-                    <div className="img-detail-container">
-                        <img src="/src/assets/projets/randomizer/track.png"></img>
-                    </div>
-
-                    <div className="project_desc">
-                        <h2>Page Track Randomizer</h2>
-                        <p>"Randomizer" de courses, l'utilisateur peut choisir le nombre de courses qu'il veut générer, en cliquant sur le bouton, le site génerera n courses aléatoirement.</p>
-                    </div>
-                </div>
+                
                 
             </div>    
 

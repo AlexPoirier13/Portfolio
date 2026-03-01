@@ -3,6 +3,11 @@ import { use, useEffect, useState } from "react";
 import Header from "../components/Header.jsx"
 import Footer from "../components/Footer.jsx"
 
+import diagImg from '../assets/projets/dicefull/diagrammeClasseConception.png'
+import dicefullHomeImg from '../assets/projets/dicefull/home.png'
+import loginImg from '../assets/projets/dicefull/login.png'
+import gestioncompteImg from '../assets/projets/dicefull/gestion_compte.png'
+
 function Dicefull(){
 
     useBackground()
@@ -33,7 +38,7 @@ function Display_project(){
                 
                 <div className="project_tile">
                     <div className="img-detail-container">
-                        <img src="/src/assets/projets/dicefull/diagrammeClasseConception.png"></img>
+                        <img src={diagImg}></img>
                     </div>
 
                     <div className="project_desc">
@@ -47,7 +52,7 @@ function Display_project(){
                 
                 <div className="project_tile">
                     <div className="img-detail-container">
-                        <img src="/src/assets/projets/dicefull/home.png"></img>
+                        <img src={dicefullHomeImg}></img>
                     </div>
 
                     <div className="project_desc">
@@ -59,7 +64,7 @@ function Display_project(){
 
                 <div className="project_tile">
                     <div className="img-detail-container">
-                        <img src="/src/assets/projets/dicefull/login.png"></img>
+                        <img src={loginImg}></img>
                     </div>
 
                     <div className="project_desc">
@@ -71,7 +76,7 @@ function Display_project(){
 
                 <div className="project_tile">
                     <div className="img-detail-container">
-                        <img src="/src/assets/projets/dicefull/gestion_compte.png"></img>
+                        <img src={gestioncompteImg}></img>
                     </div>
 
                     <div className="project_desc">

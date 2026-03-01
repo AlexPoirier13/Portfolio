@@ -3,6 +3,12 @@ import { use, useEffect, useState } from "react";
 import Header from "../components/Header.jsx"
 import Footer from "../components/Footer.jsx"
 
+import mainmenuImg from '../assets/projets/morpion/main_menu.png'
+import gridImg from '../assets/projets/morpion/grid.png'
+import symbolesImg from '../assets/projets/morpion/grid_symboles.png'
+import etatImg from '../assets/projets/morpion/etat.png'
+import endmenu from '../assets/projets/morpion/end_menu.png'
+
 function Morpion(){
 
     useBackground()
@@ -32,7 +38,7 @@ function Display_project(){
             <div className="projects_details">
                 <div className="project_tile">
                     <div className="img-detail-container">
-                        <img src="/src/assets/projets/morpion/main_menu.png"></img>
+                        <img src={mainmenuImg}></img>
                     </div>
 
                     <div className="project_desc">
@@ -43,7 +49,7 @@ function Display_project(){
 
                 <div className="project_tile">
                     <div className="img-detail-container">
-                        <img src="/src/assets/projets/morpion/grid.png"></img>
+                        <img src={gridImg}></img>
                     </div>
 
                     <div className="project_desc">
@@ -54,7 +60,7 @@ function Display_project(){
 
                 <div className="project_tile">
                     <div className="img-detail-container">
-                        <img src="/src/assets/projets/morpion/grid_symboles.png"></img>
+                        <img src={symbolesImg}></img>
                     </div>
 
                     <div className="project_desc">
@@ -65,7 +71,7 @@ function Display_project(){
 
                 <div className="project_tile">
                     <div className="img-detail-container">
-                        <img src="/src/assets/projets/morpion/etat.png"></img>
+                        <img src={etatImg}></img>
                     </div>
 
                     <div className="project_desc">
@@ -76,7 +82,7 @@ function Display_project(){
 
                 <div className="project_tile">
                     <div className="img-detail-container">
-                        <img src="/src/assets/projets/morpion/end_menu.png"></img>
+                        <img src={endmenu}></img>
                     </div>
 
                     <div className="project_desc">

@@ -1,31 +1,49 @@
 import '../styles/Skills.css'
 
+
+// Images - Languages
+import pythonImg from '../assets/skills/python.png'
+import golangImg from '../assets/skills/golang.png'
+import kotlinImg from '../assets/skills/kotlin.png'
+import phpImg from '../assets/skills/php.png'
+import htmlImg from '../assets/skills/html.png'
+import cssImg from '../assets/skills/css.png'
+import jsImg from '../assets/skills/js.png'
+import mysqlImg from '../assets/skills/mysql.png'
+
+// Images - Tools
+import linuxImg from '../assets/skills/linux.png'
+import intellijImg from '../assets/skills/intellij.png'
+import gitImg from '../assets/skills/git.png'
+
+// Images - Frameworks
+import javafxImg from '../assets/skills/javafx.png'
+import ci4Img from '../assets/skills/ci4.png'
+import reactImg from '../assets/skills/react.png'
+import viteImg from '../assets/skills/vite.png'
+
 //Objets skills
 
 const skills_languages = [
-    {name: "Python", image:"/src/assets/skills/python.png"},
-    {name: "Golang", image:"/src/assets/skills/golang.png"},
-    {name: "Kotlin", image:"/src/assets/skills/kotlin.png"},
-    {name: "PHP", image:"/src/assets/skills/php.png"},
-    {name: "HTML", image:"/src/assets/skills/html.png"},
-    {name: "CSS", image:"/src/assets/skills/css.png"},
-    {name: "JavaScript", image:"/src/assets/skills/js.png"},
-    {name: "MySQL", image:"/src/assets/skills/mysql.png"},
+    { name: "Python", image: pythonImg },
+    { name: "Golang", image: golangImg },
+    { name: "Kotlin", image: kotlinImg },
+    { name: "PHP", image: phpImg },
+    { name: "HTML", image: htmlImg },
+    { name: "CSS", image: cssImg },
+    { name: "JavaScript", image: jsImg },
+    { name: "MySQL", image: mysqlImg },
 ]
-
 const skills_tools = [
-    {name: "Linux", image:"/src/assets/skills/linux.png"},
-    {name: "IntelliJ", image:"/src/assets/skills/intellij.png"},
-    {name: "Git", image:"/src/assets/skills/git.png"},
+    { name: "Linux", image: linuxImg },
+    { name: "IntelliJ", image: intellijImg },
+    { name: "Git", image: gitImg },
 ]
-
 const skills_frameworks = [
-
-    {name: "JavaFX", image:"/src/assets/skills/javafx.png"},
-    {name: "CodeIgniter", image:"/src/assets/skills/ci4.png"},
-    {name: "React", image:"/src/assets/skills/react.png"},
-    {name: "Vite", image:"/src/assets/skills/vite.png"},
-
+    { name: "JavaFX", image: javafxImg },
+    { name: "CodeIgniter", image: ci4Img },
+    { name: "React", image: reactImg },
+    { name: "Vite", image: viteImg },
 ]
 
 

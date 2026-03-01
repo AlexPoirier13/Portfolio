@@ -1,5 +1,10 @@
 import "../styles/Contact.css"
 
+import cvImg from '../assets/contacts/cv_icon.png'
+import mailImg from '../assets/contacts/communication.png'
+import ghImg from '../assets/contacts/github.png'
+import linkedinImg from '../assets/contacts/linkedin.png'
+import rootmeImg from '../assets/contacts/rootme.png'
 
 function Contact(){
 
@@ -16,7 +21,7 @@ function Contact(){
                     
                     <a href="/src/assets/CV_Poirier_Alex.pdf" target="_blank" className="contact_card">
                         <div className="img-contact-container">
-                            <img src="/src/assets/contacts/cv_icon.png"></img>
+                            <img src={cvImg}></img>
                         </div>
                         <div className="text-container">
                             <h3>Voir mon CV</h3>
@@ -27,7 +32,7 @@ function Contact(){
 
                     <a href="mailto:poirier.alex2005@gmail.com" target="_blank" className="contact_card">
                         <div className="img-contact-container">
-                            <img src="/src/assets/contacts/communication.png"></img>
+                            <img src={mailImg}></img>
                         </div>
                         <div className="text-container">
                             <h3>Email</h3>
@@ -38,7 +43,7 @@ function Contact(){
 
                     <a href="https://github.com/AlexPoirier13" target="_blank" className="contact_card">
                         <div className="img-contact-container">
-                            <img src="/src/assets/contacts/github.png"></img>
+                            <img src={ghImg}></img>
                         </div>
                         <div className="text-container">
                             <h3>GitHub</h3>
@@ -49,7 +54,7 @@ function Contact(){
 
                     <a href="https://www.linkedin.com/in/alex-poirier13/" target="_blank" className="contact_card">
                         <div className="img-contact-container">
-                            <img src="/src/assets/contacts/linkedin.png"></img>
+                            <img src={linkedinImg}></img>
                         </div>
                         <div className="text-container">
                             <h3>LinkedIn</h3>
@@ -60,7 +65,7 @@ function Contact(){
 
                     <a href="https://www.root-me.org/Noctyx?inc=info&lang=fr" target="_blank" className="contact_card">
                         <div className="img-contact-container">
-                            <img src="/src/assets/contacts/rootme.png"></img>
+                            <img src={rootmeImg}></img>
                         </div>
                         <div className="text-container">
                             <h3>Profil Root-Me</h3>

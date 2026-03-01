@@ -3,6 +3,11 @@ import { use, useEffect, useState } from "react";
 import Header from "../components/Header.jsx"
 import Footer from "../components/Footer.jsx"
 
+import maquetteImg from '../assets/projets/quiestce/maquette_page-0001.jpg'
+import umlImg from '../assets/projets/quiestce/modelesUML_page-0002.jpg'
+import testImg from '../assets/projets/quiestce/test.png'
+import vueImg from '../assets/projets/quiestce/vue_base.png'
+
 function Quiestce(){
 
     useBackground()
@@ -33,7 +38,7 @@ function Display_project(){
             <div className="projects_details">
                 <div className="project_tile">
                     <div className="img-detail-container">
-                        <img src="/src/assets/projets/quiestce/maquette_page-0001.jpg"></img>
+                        <img src={maquetteImg}></img>
                     </div>
 
                     <div className="project_desc">
@@ -44,7 +49,7 @@ function Display_project(){
 
                 <div className="project_tile">
                     <div className="img-detail-container">
-                        <img src="/src/assets/projets/quiestce/modelesUML_page-0002.jpg"></img>
+                        <img src={umlImg}></img>
                     </div>
 
                     <div className="project_desc">
@@ -56,7 +61,7 @@ function Display_project(){
 
                 <div className="project_tile">
                     <div className="img-detail-container">
-                        <img src="/src/assets/projets/quiestce/test.png"></img>
+                        <img src={testImg}></img>
                     </div>
 
                     <div className="project_desc">
@@ -68,7 +73,7 @@ function Display_project(){
 
                 <div className="project_tile">
                     <div className="img-detail-container">
-                        <img src="/src/assets/projets/quiestce/vue_base.png"></img>
+                        <img src={vueImg}></img>
                     </div>
 
                     <div className="project_desc">

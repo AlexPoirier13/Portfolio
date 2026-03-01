@@ -3,6 +3,10 @@ import { use, useEffect, useState } from "react";
 import Header from "../components/Header.jsx"
 import Footer from "../components/Footer.jsx"
 
+import dpllImg from '../assets/projets/SAT/sudoku_dpll.png'
+import initImg from '../assets/projets/SAT/sudoku_init.jpg'
+import constrainsImg from '../assets/projets/SAT/sudoku_constraints.png'
+
 function SAT(){
 
     useBackground()
@@ -32,7 +36,7 @@ function Display_project(){
             <div className="projects_details">
                 <div className="project_tile">
                     <div className="img-detail-container">
-                        <img src="/src/assets/projets/SAT/sudoku_dpll.png"></img>
+                        <img src={dpllImg}></img>
                     </div>
 
                     <div className="project_desc">
@@ -44,7 +48,7 @@ function Display_project(){
 
                 <div className="project_tile">
                     <div className="img-detail-container">
-                        <img src="/src/assets/projets/SAT/sudoku_init.jpg"></img>
+                        <img src={initImg}></img>
                     </div>
 
                     <div className="project_desc">
@@ -57,7 +61,7 @@ function Display_project(){
 
                 <div className="project_tile">
                     <div className="img-detail-container">
-                        <img src="/src/assets/projets/SAT/sudoku_constraints.png"></img>
+                        <img src={constrainsImg}></img>
                     </div>
 
                     <div className="project_desc">
