@@ -7,6 +7,9 @@ import dpllImg from '../assets/projets/SAT/sudoku_dpll.png'
 import initImg from '../assets/projets/SAT/sudoku_init.jpg'
 import constrainsImg from '../assets/projets/SAT/sudoku_constraints.png'
 
+
+
+
 function SAT(){
 
     useBackground()
@@ -20,6 +23,7 @@ function SAT(){
     )
 
 }
+
 
 
 function Display_project(){

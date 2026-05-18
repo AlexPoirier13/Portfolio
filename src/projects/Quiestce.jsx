@@ -31,7 +31,7 @@ function Display_project(){
             <h1 className="title"><span>Projet Qui Est-Ce ?</span></h1>
             
             <div className="link">
-                <a href="https://gitlab.univ-nantes.fr/iut.info1.dev.objets/2025-2026/sae201.2025/projets-etudiants/2025.sae201.31" target="_blank">➜ Voir le projet</a>
+                <a href="https://github.com/AlexPoirier13/Qui-Est-Ce" target="_blank">➜ Voir le projet</a>
             </div>
             
 

@@ -30,7 +30,7 @@ function Display_project(){
             <h1 className="title"><span>Projet - Site de vente de jeux de société</span></h1>
             
             <div className="link">
-                <a href="https://gitlab.univ-nantes.fr/pub/but/but2/sae/groupe4/eq_4_03_cochard-bastian_grillet-nolan_monnin-damien_poirier-alex" target="_blank">➜ Voir le projet</a>
+                <a href="https://github.com/AlexPoirier13/Dicefull" target="_blank">➜ Voir le projet</a>
             </div>
             
 

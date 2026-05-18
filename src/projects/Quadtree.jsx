@@ -28,7 +28,7 @@ function Display_project(){
             <h1 className="title"><span>Projet Quadtree</span></h1>
             
             <div className="link">
-                <a href="https://gitlab.univ-nantes.fr/old/2024-2025/r1.01/r1.01.sae/r1.01.sae.groupe2.eq10.poirier-alex_salgueiro-fremont-angelo" target="_blank">➜ Voir le projet</a>
+                <a href="https://github.com/AlexPoirier13/Quadtree" target="_blank">➜ Voir le projet</a>
             </div>
             
 
