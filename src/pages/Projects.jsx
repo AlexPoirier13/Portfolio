@@ -147,22 +147,6 @@ function Projects(){
 
                     </Link>
 
-
-                    <Link to="/projects/running" className="project">
-
-                        <h2>Semi-Marathon</h2>
-                        <div className="img-container">
-                            <RunningChart />
-                        </div>
-                        
-                        <p>J'ai pour passion la course à pied c'est pourquoi j'ai pour objectif d'aller courir le semi-marathon de Nantes en 2026.</p>
-                        <div className="tags">
-                            <span>Stats</span>
-                            
-                        </div>
-
-                    </Link>
-
                 </div>
 
 
