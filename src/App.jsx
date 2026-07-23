@@ -27,7 +27,6 @@ function App() {
         <Route path="/projects/automate" element={<Automate />} />
         <Route path="/projects/morpion" element={<Morpion />} />
         <Route path="/projects/randomizer" element={<Randomizer />} />
-        <Route path="/projects/running" element={<Running />} />
       </Routes>
     </Router>
   )
