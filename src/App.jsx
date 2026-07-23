@@ -7,7 +7,6 @@ import SAT from "./projects/SAT"
 import Automate from "./projects/Automate"
 import Morpion from "./projects/Morpion"
 import Randomizer from "./projects/Randomizer"
-import Running from "./projects/Running"
 
 import ScrollToHash from "./components/ScrollToHash";
 
