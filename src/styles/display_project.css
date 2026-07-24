@@ -18,6 +18,15 @@
     
 }
 
+.run_stat{
+    display: flex;
+    width: 100%;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+
+}
+
 .project_tile {
     background-color: var(--second_bg_color);
     border: var(--border_color) solid 2px;

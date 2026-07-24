@@ -7,6 +7,7 @@ import SAT from "./projects/SAT"
 import Automate from "./projects/Automate"
 import Morpion from "./projects/Morpion"
 import Randomizer from "./projects/Randomizer"
+import Semi_nantes from "./runs/semi_nantes_2026"
 
 import ScrollToHash from "./components/ScrollToHash";
 
@@ -26,6 +27,7 @@ function App() {
         <Route path="/projects/automate" element={<Automate />} />
         <Route path="/projects/morpion" element={<Morpion />} />
         <Route path="/projects/randomizer" element={<Randomizer />} />
+        <Route path="/runs/semi_nantes_2026" element={<Semi_nantes />} />
       </Routes>
     </Router>
   )

@@ -3,6 +3,7 @@ import "../styles/Running.css"
 import semi_2026 from '../assets/runs/semi_nantes2026.png'
 import urban_2026 from '../assets/runs/urban_vannes2026.png'
 import foulees_bleues from '../assets/runs/foulees_bleues_10k.png'
+import { Link } from "react-router-dom";
 
 function Running(){
 
@@ -49,7 +50,8 @@ function Running(){
                     <span>Recent Races 🏁</span>
                 </div>
                 <div className="races_grid">
-                    <div className="race_container">
+
+                    <Link to="/runs/semi_nantes_2026" className="race_container">
                         <div className="strava_img">
                             <img src={semi_2026}></img>
                         </div>
@@ -58,8 +60,8 @@ function Running(){
                             <span className="result_date">26 Avril 2026</span>
                             <span className="result_time">2:07:46</span>
                         </div>
-                    </div>
-
+                    </Link>
+                    
                     <div className="race_container">
                         <div className="strava_img">
                             <img src={urban_2026}></img>

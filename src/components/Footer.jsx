@@ -6,7 +6,7 @@ function Footer(){
         <footer className="footer">
         <div className="info">
             <span>Portfolio - Alex Poirier</span>
-            <span>Last Time Updated - 26/02/26</span>
+            <span>Last Time Updated - 24/07/26</span>
         </div>
 
       </footer>
