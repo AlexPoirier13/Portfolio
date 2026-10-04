@@ -12,6 +12,7 @@ import {
 
 import { Line } from "react-chartjs-2";
 
+
 ChartJS.register(
   LineElement,
   PointElement,
@@ -33,6 +34,10 @@ function secondsToPace(totalSeconds) {
   const minutes = Math.floor(totalSeconds / 60);
   const seconds = Math.round(totalSeconds % 60);
   return `${minutes}:${String(seconds).padStart(2, "0")}`;
+}
+
+function stats_chart(){
+
 }
 
 function RunningChart({ label, donnes }) {

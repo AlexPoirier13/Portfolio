@@ -3,7 +3,9 @@ import "../styles/Running.css"
 import semi_2026 from '../assets/runs/semi_nantes2026.png'
 import urban_2026 from '../assets/runs/urban_vannes2026.png'
 import foulees_bleues from '../assets/runs/foulees_bleues_10k.png'
+import kastell_rose_2026 from "../assets/runs/kastell_rose_2026.png"
 import { Link } from "react-router-dom";
+import MonthlyDistanceChart from "../components/MonthlyDistanceChart";
 
 function Running(){
 
@@ -18,11 +20,11 @@ function Running(){
                 <div className="stats_grid">
                     <div className="stat_card">
                         <span className="card_title">Number of Runs</span>
-                        <span className="card_value">55</span>
+                        <span className="card_value">77</span>
                     </div>
                     <div className="stat_card">
                         <span className="card_title">Distance run (km)</span>
-                        <span className="card_value">586</span>
+                        <span className="card_value">770</span>
                     </div>
                     <div className="stat_card">
                         <span className="card_title">Longest run (km)</span>
@@ -38,8 +40,12 @@ function Running(){
                         <span className="card_value">4:22</span>
                     </div>
                     <div className="stat_card">
+                        <span className="card_title">5 km</span>
+                        <span className="card_value">25:03</span>
+                    </div>
+                    <div className="stat_card">
                         <span className="card_title">10 km</span>
-                        <span className="card_value">53:47</span>
+                        <span className="card_value">50:22</span>
                     </div>
                     <div className="stat_card">
                         <span className="card_title">half-marathon</span>
@@ -50,6 +56,17 @@ function Running(){
                     <span>Recent Races 🏁</span>
                 </div>
                 <div className="races_grid">
+
+                    <div className="race_container">
+                        <div className="strava_img">
+                            <img src={kastell_rose_2026}></img>
+                        </div>
+                        <div className="results_container">
+                            <span className="result_title">Kastell Rose (10 km) - Châteaubriant 2026</span>
+                            <span className="result_date">4 Octobre 2026</span>
+                            <span className="result_time">50:22</span>
+                        </div>
+                    </div>
 
                     <Link to="/runs/semi_nantes_2026" className="race_container">
                         <div className="strava_img">
@@ -85,6 +102,12 @@ function Running(){
                     </div>
 
                 </div>
+
+                <div className="section-divider">
+                    <span>Distance Chart</span>
+                </div>
+                <MonthlyDistanceChart />
+
             </div>
             </section>
         </>
